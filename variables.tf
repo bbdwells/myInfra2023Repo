@@ -1,6 +1,6 @@
 variable "aws_region" {
        description = "The AWS region to create things in." 
-       default     = "us-east-1" 
+       default     = "us-west-2" 
 }
 
 variable "key_name" { 
@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" { 
     description = "Name of security group" 
-    default     = "jenkins-sgroup-dec-2021" 
+    default     = "jenkins-sgroup-apr-2023" 
 }
 
 variable "tag_name" { 
@@ -24,7 +24,7 @@ variable "tag_name" {
 } 
 variable "ami_id" { 
     description = "AMI for Ubuntu Ec2 instance" 
-    default     = "ami-0ee23bfc74a881de5" 
+    default     = "ami-0fcf52bcf5db7b003" 
 }
 variable "versioning" {
     type        = bool
